@@ -14,8 +14,13 @@ all: release
 build: deps ## Build the project
 	go build -ldflags "-s -w"
 
+release-amd64: clean deps ## Generate release for linux amd64
+	mkdir -p build;
+	GOOS=linux GOARCH=amd64 go build -ldflags "-s -w" -o build/$(NAME)-linux-amd64;
+	upx -9 build/$(NAME)-linux-amd64;
+
 release: clean deps ## Generate releases for unix systems
-	for arch in $(ARCHS);\
+	@for arch in $(ARCHS);\
 	do \
 		for os in $(OS);\
 		do \
