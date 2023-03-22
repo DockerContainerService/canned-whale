@@ -1,11 +1,34 @@
+# canned-whale
 ![platform](https://img.shields.io/badge/platform-amd64%2Carm64-blue)
 [![go-report](https://goreportcard.com/badge/github.com/DockerContainerService/canned-whale)](https://goreportcard.com/report/github.com/DockerContainerService/canned-whale)
-![license](https://img.shields.io/github/license/DockerContainerService/canned-whale)
-![download](https://img.shields.io/github/downloads/DockerContainerService/canned-whale/total.svg)
-![release](https://img.shields.io/github/v/release/DockerContainerService/canned-whale)
+[![license](https://img.shields.io/github/license/DockerContainerService/canned-whale)](https://www.apache.org/licenses/LICENSE-2.0.html)
+[![download](https://img.shields.io/github/downloads/DockerContainerService/canned-whale/total.svg)](https://api.github.com/repos/DockerContainerService/canned-whale/releases)
+[![release](https://img.shields.io/github/v/release/DockerContainerService/canned-whale)](https://github.com/DockerContainerService/canned-whale/releases)
 
-## ref
-[registry](https://github.com/distribution/distribution/releases/tag/v2.8.1)
+## Features
+* Support for exporting images as image repositories
+
+## Usage
+### Install canned-whale   
+you can download the latest binary release [here](https://github.com/DockerContainerService/canned-whale/releases)
+
+### Install from source
+```bash
+go get github.com/DockerContainerService/canned-whale
+cd ${GOPATH}/github.com/DockerContainerService/canned-whale
+make release
+```
+
+### Get usage information
+```bash
+canned-whale -h
+```
+
+[//]: # (## ref)
+
+[//]: # (image-syncer: [https://github.com/AliyunContainerService/image-syncer]&#40;https://github.com/AliyunContainerService/image-syncer&#41;    )
+
+[//]: # (registry: [https://github.com/distribution/distribution]&#40;https://github.com/distribution/distribution/releases/tag/v2.8.1&#41;)
 
 ## Collaborators
 
