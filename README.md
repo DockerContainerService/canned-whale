@@ -1,3 +1,12 @@
+![platform](https://img.shields.io/badge/platform-amd64%2Carm64-blue)
+![go-report](https://goreportcard.com/badge/github.com/DockerContainerService/canned-whale)
+![license](https://img.shields.io/github/license/DockerContainerService/canned-whale)
+![download](https://img.shields.io/github/downloads/DockerContainerService/canned-whale/total.svg)
+![release](https://img.shields.io/github/v/release/DockerContainerService/canned-whale)
+
+## ref
+[registry](https://github.com/distribution/distribution/releases/tag/v2.8.1)
+
 ## Collaborators
 
 <!-- readme: collaborators -start -->
