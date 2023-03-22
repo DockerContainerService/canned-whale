@@ -1,4 +1,4 @@
-## 贡献者
+## Contributors
 
 <!-- readme: collaborators,contributors -start -->
 <!-- readme: collaborators,contributors -end -->
