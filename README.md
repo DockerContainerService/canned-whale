@@ -1,4 +1,14 @@
+## Collaborators
+
+<!-- readme: collaborators -start -->
+<!-- readme: collaborators -end -->
+
 ## Contributors
 
-<!-- readme: collaborators,contributors,sponsors,bots -start -->
-<!-- readme: collaborators,contributors,sponsors,bots -end -->
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
+
+## Bots
+
+<!-- readme: bots -start -->
+<!-- readme: bots -end -->
