@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/DockerAcCn/canned-whale/cmd"
+	"github.com/DockerContainerService/canned-whale/cmd"
 )
 
 func main() {

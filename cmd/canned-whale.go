@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 	"github.com/AliyunContainerService/image-syncer/pkg/client"
-	"github.com/DockerAcCn/canned-whale/pkg/utils"
+	"github.com/DockerContainerService/canned-whale/pkg/utils/path"
 	"github.com/spf13/cobra"
 	"io"
 	"io/fs"
@@ -73,7 +73,7 @@ var RootCmd = &cobra.Command{
 			return fmt.Errorf("remove cache error: %+v", err)
 		}
 		runRegistryCmd.Process.Kill()
-		utils.RemovePath(cachedPath)
+		path.RemovePath(cachedPath)
 		fmt.Println("Finished")
 		return nil
 	},
@@ -105,8 +105,8 @@ func copyFSFile(FSFilePath, localPath string) (err error) {
 }
 
 func init() {
-	if !utils.IsPathExist(cachedPath) {
-		err := utils.MkdirPath(cachedPath)
+	if !path.IsPathExist(cachedPath) {
+		err := path.MkdirPath(cachedPath)
 		if err != nil {
 			fmt.Println(err)
 			os.Exit(-1)

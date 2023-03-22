@@ -1,4 +1,4 @@
-module github.com/DockerAcCn/canned-whale
+module github.com/DockerContainerService/canned-whale
 
 go 1.19
 
