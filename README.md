@@ -1,5 +1,5 @@
 # canned-whale
-![platform](https://img.shields.io/badge/platform-amd64%2Carm64-blue)
+[![platform](https://img.shields.io/badge/platform-amd64%2Carm64-blue)](https://github.com/DockerContainerService/canned-whale/releases)
 [![go-report](https://goreportcard.com/badge/github.com/DockerContainerService/canned-whale)](https://goreportcard.com/report/github.com/DockerContainerService/canned-whale)
 [![license](https://img.shields.io/github/license/DockerContainerService/canned-whale)](https://www.apache.org/licenses/LICENSE-2.0.html)
 [![download](https://img.shields.io/github/downloads/DockerContainerService/canned-whale/total.svg)](https://api.github.com/repos/DockerContainerService/canned-whale/releases)

@@ -20,8 +20,8 @@ var (
 
 var rootCmd = &cobra.Command{
 	Use:   "canned-whale",
-	Short: "Container export tool",
-	Long: `A container export tool implement by Go.
+	Short: "Dockerlessed container tool",
+	Long: `A container tool independent docker daemon implement by Go.
     Complete documentation is available at https://github.com/DockerAcCn/canned-whale`,
 	RunE: func(cmd *cobra.Command, args []string) error {
 		logrus.Println("hello")
@@ -42,8 +42,8 @@ var registryCmd = &cobra.Command{
 }
 
 var canCmd = &cobra.Command{
-	Use:     "can",
-	Aliases: []string{"save"},
+	Use:     "save",
+	Aliases: []string{"can"},
 	Short:   "Image export tool, ",
 	Long: `A image export tool implement by Go.
     Complete documentation is available at https://github.com/DockerAcCn/canned-whale`,
@@ -54,8 +54,8 @@ var canCmd = &cobra.Command{
 }
 
 var packCmd = &cobra.Command{
-	Use:     "pack",
-	Aliases: []string{"package"},
+	Use:     "package",
+	Aliases: []string{"pack"},
 	Short:   "Docker registry export tool",
 	Long: `A docker registry export tool implement by Go.
     Complete documentation is available at https://github.com/DockerAcCn/canned-whale`,
